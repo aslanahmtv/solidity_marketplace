@@ -1,0 +1,23 @@
+[
+  "event DisputeCreated(bytes32)",
+  "event Initialized(uint8)",
+  "event OrderCancelled(bytes32)",
+  "event OrderConfirmed(bytes32)",
+  "event OrderInitiated(bytes32,address indexed,address indexed,uint256)",
+  "event RoleAdminChanged(bytes32 indexed,bytes32 indexed,bytes32 indexed)",
+  "event RoleGranted(bytes32 indexed,address indexed,address indexed)",
+  "event RoleRevoked(bytes32 indexed,address indexed,address indexed)",
+  "function DEFAULT_ADMIN_ROLE() view returns (bytes32)",
+  "function SUPPORT_ROLE() view returns (bytes32)",
+  "function cancel(bytes32,string,bytes[])",
+  "function confirmOrder(bytes32)",
+  "function disputeOrder(bytes32)",
+  "function getRoleAdmin(bytes32) view returns (bytes32)",
+  "function grantRole(bytes32,address)",
+  "function hasRole(bytes32,address) view returns (bool)",
+  "function initiateOrder(bytes32,address) payable",
+  "function renounceRole(bytes32,address)",
+  "function resolveDispute(bytes32,bool)",
+  "function revokeRole(bytes32,address)",
+  "function supportsInterface(bytes4) view returns (bool)"
+]
